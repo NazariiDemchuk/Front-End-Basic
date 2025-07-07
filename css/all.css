@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-family: "Cera Pro", sans-serif;
+}
+
+.main {
+    padding: 30px 120px 52px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid rgb(70, 163, 88, 0.50);
+    margin-bottom: 12px;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-item {
+    font-family: sans-serif;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-style: normal;
+    padding: 8px 25px 25px;
+}
+
+.active {
+    font-weight: 700;
+    border-bottom: 3px solid #46A358;
+}
+
+.btn {
+    border-radius: 6px;
+    background: #46A358;
+    padding: 8px 17px;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.homepage {
+    display: flex;
+    gap: 93px;
+}
+
+.homepage-content {
+    margin: 56px 0 0 43px;
+}
+
+.homepage-subtitle {
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin-bottom: 7px;
+}
+
+.homepage-title {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin-bottom: 5px;
+}
+
+.planet {
+    color: #46a358;
+}
+
+.homepage-description {
+    font-weight: 400;
+    line-height: 24px;
+    color: #727272;
+    margin-bottom: 44px;
+}
+
+.homepage-button {
+    border-radius: 6px;
+    width: 140px;
+    height: 40px;
+    background: #46a358;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.homepage-img {
+    display: flex;
+}
+
+.homepage-flower-mini {
+    width: 135px;
+    height: 135px;
+    position: relative;
+    transform: translate(180px, 300px);
+}
+
+.homepage-flower {
+    width: 507px;
+    height: 450px;
+}

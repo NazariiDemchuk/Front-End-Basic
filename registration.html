@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./CeraPro.zip">
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="form-close">
+            <button type="button" class="close-button" onclick="location.href='./index.html'">✕</button>
+        </div>
+        <h2 class="form-header">
+            <a class="tab-link" href="#">Login</a> <span class="form-header-jumper">|</span> <a class="tab-link-active" href="#">Register</a>
+        </h2>
+        <p class="form-subtitle">Enter your email and password to register.</p>
+        <form action="#" method="post" class="register-form">
+            <div class="form-group">
+                <input type="text" name="username" placeholder="Username" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Enter your email address" class="form-input" required>
+            </div>
+            <div class="form-group password-group">
+                <input type="password" name="password" placeholder="Password" class="form-input" required>
+                <img src="./img/Hide.png" alt="Show password" class="eye-icon">
+            </div>
+            <div class="form-group">
+                <input type="password" name="confirm_password" placeholder="Confirm Password" class="form-input" required>
+            </div>
+            <div class="form-group-button">
+                <button type="submit" class="form-button">Register</button>
+            </div>
+        </form>
+        <p class="form-separator">Or register with</p>
+        <div class="social-buttons">
+            <button class="social-button">
+                <img src="./img/google 1.png" alt="Google">
+                Continue with Google
+            </button>
+            <button class="social-button">
+                <img src="./img/facebook 1.png" alt="Facebook">
+                Continue with Facebook
+            </button>
+        </div>
+        <div class="bottom-line"></div>
+    </div>
+</body>
+</html>
