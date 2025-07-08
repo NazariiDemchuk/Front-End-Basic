@@ -56,11 +56,10 @@
 
 .homepage {
     display: flex;
-    gap: 93px;
 }
 
 .homepage-content {
-    margin: 56px 0 0 43px;
+    padding: 56px 43px;
 }
 
 .homepage-subtitle {
@@ -75,7 +74,7 @@
 .homepage-title {
     font-weight: 900;
     font-size: 70px;
-    line-height: 70px;
+    line-height: 80px;
     text-transform: uppercase;
     color: #3d3d3d;
     margin-bottom: 5px;
@@ -106,17 +105,18 @@
 }
 
 .homepage-img {
-    display: flex;
-}
-
-.homepage-flower-mini {
-    width: 135px;
-    height: 135px;
     position: relative;
-    transform: translate(180px, 300px);
 }
 
 .homepage-flower {
     width: 507px;
     height: 450px;
+}
+
+.homepage-flower-mini {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    width: 135px;
+    height: 135px;
 }
