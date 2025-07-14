@@ -1,3 +1,53 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('/fonts/CeraPro-Light.eot');
+    src: url('/fonts/CeraPro-Light.eot#iefix') format('embeded-opentype'),
+        url('/fonts/CeraPro-Light.woff2') format('woff2'),
+        url('/fonts/CeraPro-Light.woff') format('woff'),
+        url('/fonts/CeraPro-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('/fonts/CeraPro-Regular.eot');
+    src: url('/fonts/CeraPro-Regular.eot#iefix') format('embeded-opentype'),
+        url('/fonts/CeraPro-Regular.woff2') format('woff2'),
+        url('/fonts/CeraPro-Regular.woff') format('woff'),
+        url('/fonts/CeraPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('/fonts/CeraPro-Medium.eot');
+    src: url('/fonts/CeraPro-Medium.eot#iefix') format('embeded-opentype'),
+        url('/fonts/CeraPro-Medium.woff2') format('woff2'),
+        url('/fonts/CeraPro-Medium.woff') format('woff'),
+        url('/fonts/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('/fonts/CeraPro-Bold.eot');
+    src: url('/fonts/CeraPro-Bold.eot#iefix') format('embeded-opentype'),
+        url('/fonts/CeraPro-Bold.woff2') format('woff2'),
+        url('/fonts/CeraPro-Bold.woff') format('woff'),
+        url('/fonts/CeraPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('/fonts/CeraPro-Black.eot');
+    src: url('/fonts/CeraPro-Black.eot#iefix') format('embeded-opentype'),
+        url('/fonts/CeraPro-Black.woff2') format('woff2'),
+        url('/fonts/CeraPro-Black.woff') format('woff'),
+        url('/fonts/CeraPro-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -56,10 +106,11 @@
 
 .homepage {
     display: flex;
+    margin-bottom: 46px;
 }
 
 .homepage-content {
-    padding: 56px 43px;
+    padding: 68px 43px;
 }
 
 .homepage-subtitle {
@@ -119,4 +170,133 @@
     left: 50px;
     width: 135px;
     height: 135px;
+}
+
+.assortment {
+    display: flex;
+    margin-top: 171px;
+}
+
+.assortment-sidebar {
+    padding: 68px 43px;
+}
+
+.assortment-sidebar-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3d3d3d;
+    margin-bottom: 7px;
+}
+
+.assortment-sidebar-list{
+    margin-left: 12px;
+    margin-bottom: 285px;
+}
+
+.assortment-sidebar-category {
+    font-weight: 400;
+    font-size: 15px; 
+    line-height: 40px;
+    color: #3d3d3d;
+}
+
+.house-plants {
+    color: #46a358;
+    font-weight: 700;
+}
+
+.assortment-sidebar-banner {
+    width: 370px;
+    height: 470px;
+}
+
+/* .assortment-main {
+    
+} */
+
+.assortment-main-nav {
+    display: flex;
+    padding: 54px 40px;
+}
+
+.assortment-main-sidebar {
+    display: flex;
+    gap: 40px;
+    margin-right: 385px;
+}
+
+.assortment-main-sidebar-category {
+    font-weight: 400;
+    font-size: 15px; 
+    line-height: 16px;
+    color: #3d3d3d;
+}
+
+.all-plants {
+    font-weight: 700;
+    color: #46a358;
+    border-bottom: 2px solid #46a358;
+}
+
+.assortment-main-nav-short {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3d3d3d;
+    margin-right: 5px;
+}
+
+.assortment-main-flowers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px 33px;
+    margin-bottom: 90px;
+}
+
+.assortment-main-flowers {
+    width: 250px;
+    height: 250px;
+}
+
+.assortment-main-flowers-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3d3d3d;
+    margin-top: 20px;
+}
+
+.assortment-main-flowers-price {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46a358;
+    margin-top: 6px;
+}
+
+.assortment-main-pages {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.assortment-main-pages-btn {
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px 13px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3d3d3d;
+}
+
+.btn-active {
+    font-weight: 700;
+    color: #fff;
+    background-color: #46a358;
+    border: 1px solid #46a358;
 }
