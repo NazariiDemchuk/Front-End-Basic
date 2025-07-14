@@ -191,7 +191,7 @@
 
 .assortment-sidebar-list{
     margin-left: 12px;
-    margin-bottom: 377px;
+    margin-bottom: 340px;
 }
 
 .assortment-sidebar-category {
@@ -213,7 +213,7 @@
 
 .assortment-main-nav {
     display: flex;
-    padding: 38px 0;
+    padding: 31px 50px;
 }
 
 .assortment-main-sidebar {
@@ -249,8 +249,8 @@
     justify-content: space-between;
     align-items: flex-end;
     gap: 130px 33px;
-    margin-bottom: 90px;
-    margin-top: 80px;
+    /* margin-bottom: 90px; */
+    margin: 40px 0 90px 50px;
 }
 
 .assortment-main-flowers {
