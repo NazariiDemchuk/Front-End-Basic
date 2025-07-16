@@ -249,12 +249,36 @@
     justify-content: space-between;
     align-items: flex-end;
     gap: 130px 33px;
-    margin: 40px 0 90px 50px;
+    margin: 0px 0 90px 50px;
+}
+
+.assortment-main-flowers-blocks {
+  position: relative; 
+}
+
+.assortment-main-flowers-blocks:hover .assortment-main-flowers-line {
+    border: 1px solid #46A358;
 }
 
 .assortment-main-flowers {
     width: 250px;
     height: 250px;
+}
+
+.assortment-main-flowers-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+.assortment-main-flowers-blocks:hover .assortment-main-flowers-icon {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .assortment-main-flowers-name {
@@ -271,6 +295,33 @@
     line-height: 16px;
     color: #46a358;
     margin-top: 6px;
+}
+
+.assortment-main-flowers-sale {
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 16px;
+    color: #fff;
+    background: #46a358;
+    padding: 7px 9px;
+    position: absolute;
+    top: 14px;
+}
+
+.assortment-main-flowers-oldprice {
+    border: 1px solid #cbcbcb;
+    align-items: center;
+    display: flex;
+    width: 65px;
+    height: 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #a5a5a5;
+    position: relative;
+    bottom: 9px;
+    left: 80px;
+
 }
 
 .assortment-main-pages {
@@ -382,6 +433,11 @@
     justify-content: space-between;
     align-items: flex-end;
     gap: 44px;
+}
+
+.info-blogs-stacks-content {
+    width: 268px;
+    height: 362px;
 }
 
 .info-blogs-stacks-date {
