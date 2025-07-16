@@ -257,7 +257,7 @@
 }
 
 .assortment-main-flowers-blocks:hover .assortment-main-flowers-line {
-    border: 1px solid #46A358;
+    outline: 1px solid #46A358;
 }
 
 .assortment-main-flowers {
@@ -318,8 +318,8 @@
     font-size: 18px;
     line-height: 16px;
     color: #a5a5a5;
-    position: relative;
-    bottom: 9px;
+    position: absolute;
+    bottom: 7px;
     left: 80px;
 
 }
