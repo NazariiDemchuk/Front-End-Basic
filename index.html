@@ -6,6 +6,9 @@
     <title>GREENSHOP</title>
     <link rel="stylesheet" href="./css/all.css">
     <link rel="icon" href="./img/Icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main">
@@ -23,17 +26,53 @@
                 <path d="M140.374 10.9684H145.226C147.979 10.9684 150.004 12.6543 150.004 15.2215C150.004 17.7524 147.926 19.4908 145.226 19.4908H143.596V23.3316H140.374V10.9684ZM145.242 16.681C146.139 16.681 146.721 16.0988 146.721 15.2215C146.721 14.3442 146.139 13.7782 145.242 13.7782H143.592V16.681H145.242Z" fill="#46A358" />
             </svg>
             <ul class="nav">
-                <li class="nav-item active">
-                    Home
+                <li class="nav-item">
+                    <a class="active" href="">Home</a>
                 </li>
                 <li class="nav-item">
-                    Shop
+                    <a class="active" href="">Shop</a>
                 </li>
                 <li class="nav-item">
-                    Plant Care
+                    <a class="active" href="">Plant Care</a>
+                    <ul class="subnav">
+                        <li class="subnav-item">
+                            <a class="subactive" href="">Drainage</a>
+                        </li>
+                        <li class="subnav-item">
+                            <a class="subactive" href="">Fungicides</a>
+                        </li>
+                        <li class="subnav-item">
+                            <a class="subactive" href="">Fertilizer</a>
+                        </li>
+                        <li class="subnav-item">
+                            <a class="subactive" href="">Priming</a>
+                            <img class="subarrow" src="./img/arrow-black.svg" alt="">
+                            <img class="subsubarrow" src="./img/arrow-white.svg" alt="">
+                            <ul class="subsubnav">
+                                <li class="subsubnav-item">
+                                    <a class="subsubactive" href="">Universal</a>
+                                </li>
+                                <li class="subsubnav-item">
+                                    <a class="subsubactive" href="">For Ficus</a>
+                                </li>
+                                <li class="subsubnav-item">
+                                    <a class="subsubactive" href="">For Cacti</a>
+                                </li>
+                                <li class="subsubnav-item">
+                                    <a class="subsubactive" href="">For Citrus</a>
+                                </li>
+                                <li class="subsubnav-item">
+                                    <a class="subsubactive" href="">For those in bloom</a>
+                                </li>
+                                <li class="subsubnav-item">
+                                    <a class="subsubactive" href="">For Orchids</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    Blogs
+                    <a class="active" href="">Blogs</a>
                 </li>
             </ul>
             <button class="btn" onclick="location.href='./registration.html'">
