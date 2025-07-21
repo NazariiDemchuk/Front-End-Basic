@@ -83,7 +83,7 @@
 .nav-item {
     display: flex;
     justify-content: center;
-    position: static;
+    position: relative;
     width: 80px;
     height: 45px;
 }
@@ -101,8 +101,7 @@
     display: none;
     background: #edf6ee;
     position: absolute;
-    top: 87px;
-    left: 780px;
+    top: 46px;
     z-index: 100;
 }
 
@@ -111,7 +110,7 @@
     align-items: center;
     gap: 89px;
     padding-left: 14px;
-    position: static;
+    position: relative;
     width: 188px;
     height: 35px;
 }
@@ -135,8 +134,8 @@
     background: #edf6ee;
     position: absolute;
     z-index: 100;
-    left: 190px;
-    top: 0px;
+    left: 188px;
+    top: -105px;
 }
 
 .subsubnav-item {
