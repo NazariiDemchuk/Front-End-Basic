@@ -62,6 +62,64 @@
     font-family: "Cera Pro", sans-serif;
 }
 
+@keyframes pulsation {
+    0% { transform: scale(1);}
+    50% { transform: scale(1.1);}
+    100% { transform: scale(1);}
+}
+
+.pulsation:hover {
+    animation: pulsation 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); background-color: #46a358;}
+    50% { transform: scale(1.05); background-color: #58bd69;}
+    100% { transform: scale(1); background-color: #46a358;}
+}
+
+.pulse:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes subsubunderline {
+    from { width: 0;}
+    to { width: 100%;}
+}
+
+.subsubactive::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #46a358;
+}
+
+.subsubactive:hover::after {
+    animation: subsubunderline 0.4s forwards;
+}
+
+@keyframes subunderline {
+    from { width: 0;}
+    to { width: 100%;}
+}
+
+.subactive::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+}
+
+.subactive:hover::after {
+    animation: subunderline 0.4s forwards;
+}
+
 .main {
     padding: 30px 120px 52px;
 }
@@ -121,6 +179,7 @@
     font-size: 16px;
     color: #3d3d3d;
     text-decoration: none;
+    position: relative;
 }
 
 .subsubarrow {
@@ -150,6 +209,7 @@
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
+    position: relative;
 }
 
 .nav-item:hover .subnav {
@@ -648,6 +708,7 @@
     font-size: 18px;
     line-height: 16px;
     color: #fff;
+    cursor: pointer;
 }
 
 .footer-info-email > p {
@@ -733,7 +794,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    cursor: pointer;
 }
 
 .footer-info-navigation-media-partners {
