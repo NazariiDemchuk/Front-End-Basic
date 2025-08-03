@@ -6,11 +6,15 @@
     <title>GREENSHOP</title>
     <link rel="stylesheet" href="./css/all.css">
     <link rel="icon" href="./img/Icon.png">
+    <script src="./preloader.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
     <div class="main">
         <header class="header">
             <svg width="150" height="35" viewBox="0 0 150 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,7 +79,7 @@
                     <a class="active" href="">Blogs</a>
                 </li>
             </ul>
-            <button class="btn pulse" onclick="location.href='./registration.html'">
+            <button class="btn pulse" onclick="showPreloaderAndNavigate('./registration.html')">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.1601 10.1006H8.12598" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M15.7212 7.67059L18.1612 10.1006L15.7212 12.5306" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -109,17 +113,71 @@
                 <div>
                     <div class="assortment-sidebar">
                         <h3 class="assortment-sidebar-title">Categories</h3>
-                        <ul class="assortment-sidebar-list">
-                            <li class="assortment-sidebar-category house-plants">House Plants</li>
-                            <li class="assortment-sidebar-category">Potter Plants</li>
-                            <li class="assortment-sidebar-category">Seeds</li>
-                            <li class="assortment-sidebar-category">Small Plants</li>
-                            <li class="assortment-sidebar-category">Big Plants</li>
-                            <li class="assortment-sidebar-category">Succulents</li>
-                            <li class="assortment-sidebar-category">Trerrariums</li>
-                            <li class="assortment-sidebar-category">Gardening</li>
-                            <li class="assortment-sidebar-category">Accessories</li>
-                        </ul>
+                        <div class="assortment-sidebar-container">
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="check">
+                                <div class="custom-check-item">
+                                    <span>House Plants</span>
+                                    <span>(33)</span>
+                                </div>
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="check">
+                                <div class="custom-check-item">
+                                    <span>Potter Plants</span>
+                                    <span>(12)</span>
+                                </div>
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="check">
+                                <div class="custom-check-item">
+                                    <span>Seeds</span>
+                                    <span>(65)</span>
+                                </div>
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="check">
+                                <div class="custom-check-item">
+                                    <span>Small Plants</span>
+                                    <span>(39)</span>
+                                </div>
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="check">
+                                <div class="custom-check-item">
+                                    <span>Big Plants</span>
+                                    <span>(23)</span>
+                                </div>
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="check">
+                                <div class="custom-check-item">
+                                    <span>Succulents</span>
+                                    <span>(17)</span>
+                                </div>
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="check">
+                                <div class="custom-check-item">
+                                    <span>Trerrariums</span>
+                                    <span>(19)</span>
+                                </div>
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="check">
+                                <div class="custom-check-item">
+                                    <span>Gardening</span>
+                                    <span>(13)</span>
+                                </div>
+                            </label>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" name="check">
+                                <div class="custom-check-item">
+                                    <span>Accessories</span>
+                                    <span>(18)</span>
+                                </div>
+                            </label>
+                        </div>
                     </div>
                     <div>
                         <img class="assortment-sidebar-banner" src="./img/Super Sale Banner.png" alt="super-sale">

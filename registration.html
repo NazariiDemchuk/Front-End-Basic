@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./img/Icon.png">
     <link rel="stylesheet" href="./CeraPro.zip">
+    <script src="./preloader.js" defer></script>
 </head>
 <body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
     <div class="form-wrapper">
         <div class="form-close">
-            <button type="button" class="close-button" onclick="location.href='./index.html'">✕</button>
+            <button type="button" class="close-button" onclick="showPreloaderAndNavigate('index.html')">✕</button>
         </div>
         <h2 class="form-header">
             <a class="tab-link" href="#">Login</a> <span class="form-header-jumper">|</span> <a class="tab-link-active" href="#">Register</a>
