@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GREENSHOP</title>
-    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" media="screen and (min-width: 1201px)"  href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 280px)" href="./css/style-280.css">
+    <link rel="stylesheet" media="screen and (min-width: 281px) and (max-width: 320px)" href="./css/style-320.css">
+    <link rel="stylesheet" media="screen and (min-width: 321px) and (max-width: 540px)" href="./css/style-540.css">
+    <link rel="stylesheet" media="screen and (min-width: 541px) and (max-width: 768px)" href="./css/style-768.css">
+    <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 992px)" href="./css/style-992.css">
+    <link rel="stylesheet" media="screen and (min-width:993px) and (max-width: 1200px)" href="./css/style-1200.css">
     <link rel="icon" href="./img/Icon.png">
     <script src="./preloader.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,52 +37,52 @@
             </svg>
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="active" href="">Home</a>
+                    <a class="active">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="active" href="">Shop</a>
+                    <a class="active">Shop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="active" href="">Plant Care</a>
+                    <a class="active">Plant Care</a>
                     <ul class="subnav">
                         <li class="subnav-item">
-                            <a class="subactive" href="">Drainage</a>
+                            <a class="subactive">Drainage</a>
                         </li>
                         <li class="subnav-item">
-                            <a class="subactive" href="">Fungicides</a>
+                            <a class="subactive">Fungicides</a>
                         </li>
                         <li class="subnav-item">
-                            <a class="subactive" href="">Fertilizer</a>
+                            <a class="subactive">Fertilizer</a>
                         </li>
                         <li class="subnav-item">
-                            <a class="subactive" href="">Priming</a>
+                            <a class="subactive">Priming</a>
                             <img class="subarrow" src="./img/arrow-black.svg" alt="">
                             <img class="subsubarrow" src="./img/arrow-white.svg" alt="">
                             <ul class="subsubnav">
                                 <li class="subsubnav-item">
-                                    <a class="subsubactive" href="">Universal</a>
+                                    <a class="subsubactive">Universal</a>
                                 </li>
                                 <li class="subsubnav-item">
-                                    <a class="subsubactive" href="">For Ficus</a>
+                                    <a class="subsubactive">For Ficus</a>
                                 </li>
                                 <li class="subsubnav-item">
-                                    <a class="subsubactive" href="">For Cacti</a>
+                                    <a class="subsubactive">For Cacti</a>
                                 </li>
                                 <li class="subsubnav-item">
-                                    <a class="subsubactive" href="">For Citrus</a>
+                                    <a class="subsubactive">For Citrus</a>
                                 </li>
                                 <li class="subsubnav-item">
-                                    <a class="subsubactive" href="">For those in bloom</a>
+                                    <a class="subsubactive">For those in bloom</a>
                                 </li>
                                 <li class="subsubnav-item">
-                                    <a class="subsubactive" href="">For Orchids</a>
+                                    <a class="subsubactive">For Orchids</a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="active" href="">Blogs</a>
+                    <a class="active">Blogs</a>
                 </li>
             </ul>
             <button class="btn pulse" onclick="showPreloaderAndNavigate('./registration.html')">
@@ -110,7 +116,7 @@
                 </div>
             </section>
             <section class="assortment">
-                <div>
+                <div class="assortment-container">
                     <div class="assortment-sidebar">
                         <h3 class="assortment-sidebar-title">Categories</h3>
                         <div class="assortment-sidebar-container">
@@ -179,7 +185,7 @@
                             </label>
                         </div>
                     </div>
-                    <div>
+                    <div class="assortment-sidebar-banner-container">
                         <img class="assortment-sidebar-banner" src="./img/Super Sale Banner.png" alt="super-sale">
                     </div>
                 </div>
